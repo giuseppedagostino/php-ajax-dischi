@@ -1,5 +1,6 @@
 <?php
-  // codice
+  include __DIR__ . "/php_partials/db.php";
+  include_once __DIR__ . "/php_partials/functions.php";
 ?>
 
 <!DOCTYPE html>
