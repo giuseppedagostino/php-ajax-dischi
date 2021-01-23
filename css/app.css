@@ -7,5 +7,13 @@
 
 body {
   padding: 50px;
+  background-color: white;
+}
+
+.card {
+  padding: 15px;
+  width: 320px;
+  height: 320px;
+  border-radius: 15px;
   background-color: lightyellow;
 }
