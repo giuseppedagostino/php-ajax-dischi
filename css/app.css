@@ -7,7 +7,7 @@
 
 body {
   padding: 50px;
-  background-color: white;
+  background-color: brown;
 }
 
 .card {
@@ -16,4 +16,9 @@ body {
   height: 320px;
   border-radius: 15px;
   background-color: lightyellow;
+}
+
+.card img {
+  width: 260px;
+  height: 260px;
 }

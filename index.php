@@ -20,11 +20,28 @@ Stampiamo i dischi solo con l’utilizzo di PHP: al caricamento della pagina, ci
   </head>
 
   <body>
-    <h1>php-ajax-dischi</h1>
-    <?php foreach ($discs as $disc): ?>
-      <div class="card">
-        <?php echo $disc["author"] . "<br>" . $disc["title"] . "<br>" . $disc["genre"] . "<br>" . $disc["year"]; ?>
-      </div>
-    <?php endforeach; ?>
+
+    <!-- header -->
+    <header></header>
+    <!-- /header -->
+
+    <!-- main -->
+    <main>
+
+      <h1>php-ajax-dischi</h1>
+      <?php foreach ($discs as $disc): ?>
+        <div class="card">
+          <?php echo $disc["poster"]; ?>
+          <?php echo $disc["author"] . "<br>" . $disc["title"] . "<br>" . $disc["genre"] . "<br>" . $disc["year"]; ?>
+        </div>
+      <?php endforeach; ?>
+
+    </main>
+    <!-- /main -->
+
+    <!-- footer -->
+    <footer></footer>
+    <!-- /footer -->
+
   </body>
 </html>

@@ -2,7 +2,7 @@
   $discs = [
     // disco 1
     [
-      "poster" => "",
+      "poster" => "<img src='img/aerosmith.jfif'>",
       "author" => "Aerosmith",
       "title" => "Dream on",
       "genre" => "Rock",
@@ -10,7 +10,7 @@
     ],
     // disco 2
     [
-      "poster" => "",
+      "poster" => "<img src='img/rhcp.jfif'>",
       "author" => "Red hot chili peppers",
       "title" => "Tell me baby",
       "genre" => "Rock",
@@ -18,7 +18,7 @@
     ],
     // disco 3
     [
-      "poster" => "",
+      "poster" => "<img src='img/led_zeppelin.jfif'>",
       "author" => "Led Zeppelin",
       "title" => "Whole lotta love",
       "genre" => "Metal",
@@ -26,7 +26,7 @@
     ],
     // disco 4
     [
-      "poster" => "",
+      "poster" => "<img src='img/steppenwolf.jfif'>",
       "author" => "Steppenwolf",
       "title" => "Born to be wild",
       "genre" => "Rock",
@@ -34,7 +34,7 @@
     ],
     // disco 5
     [
-      "poster" => "",
+      "poster" => "<img src='img/metallica.jfif'>",
       "author" => "Metallica",
       "title" => "Enter sandman",
       "genre" => "Metal",
@@ -42,7 +42,7 @@
     ],
     // disco 6
     [
-      "poster" => "",
+      "poster" => "<img src='img/elvis.jfif'>",
       "author" => "Elvis Presley",
       "title" => "Can't help falling in love",
       "genre" => "Pop",
@@ -50,7 +50,7 @@
     ],
     // disco 7
     [
-      "poster" => "",
+      "poster" => "<img src='img/evanescence.jfif'>",
       "author" => "Evanescence",
       "title" => "Bring me to life",
       "genre" => "Metal",
@@ -58,7 +58,7 @@
     ],
     // disco 8
     [
-      "poster" => "",
+      "poster" => "<img src='img/marilyn.jfif'>",
       "author" => "Marilyn Monroe",
       "title" => "I wanna be loved by you",
       "genre" => "Pop",
@@ -66,7 +66,7 @@
     ],
     // disco 9
     [
-      "poster" => "",
+      "poster" => "<img src='img/edit.jfif'>",
       "author" => "Edith Piaf",
       "title" => "La Vie en rose",
       "genre" => "Chanson",
@@ -74,7 +74,7 @@
     ],
     // disco 10
     [
-      "poster" => "",
+      "poster" => "<img src='img/frank.jfif'>",
       "author" => "Frank Sinatra",
       "title" => "Fly me to the moon",
       "genre" => "Jazz",
@@ -82,7 +82,7 @@
     ],
     // disco 11
     [
-      "poster" => "",
+      "poster" => "<img src='img/billie.jfif'>",
       "author" => "Billie Holiday",
       "title" => "These 'n that 'n those'",
       "genre" => "Jazz",
@@ -90,7 +90,7 @@
     ],
     // disco 12
     [
-      "poster" => "",
+      "poster" => "<img src='img/edit.jfif'>",
       "author" => "Edith Piaf",
       "title" => "La foule",
       "genre" => "Chanson",
@@ -98,7 +98,7 @@
     ],
     // disco 13
     [
-      "poster" => "",
+      "poster" => "<img src='img/roberta.jfif'>",
       "author" => "Roberta Flack",
       "title" => "Killing me softly with his song",
       "genre" => "Jazz",
@@ -106,7 +106,7 @@
     ],
     // disco 14
     [
-      "poster" => "",
+      "poster" => "<img src='img/louis.jfif'>",
       "author" => "Louis Armstrong",
       "title" => "What a wonderful world",
       "genre" => "Jazz",
