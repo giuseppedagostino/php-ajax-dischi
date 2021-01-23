@@ -2,7 +2,7 @@
 Stampiamo i dischi solo con l’utilizzo di PHP: al caricamento della pagina, ci saranno tutti i dischi. -->
 
 <?php
-  include __DIR__ . "/php_partials/db.php";
+  require __DIR__ . "/php_partials/db.php";
   // include_once __DIR__ . "/php_partials/functions.php";
 ?>
 
@@ -22,13 +22,12 @@ Stampiamo i dischi solo con l’utilizzo di PHP: al caricamento della pagina, ci
   <body>
 
     <!-- header -->
-    <header></header>
+    <?php require __DIR__ . "/php_partials/header.php"; ?>
     <!-- /header -->
 
     <!-- main -->
     <main>
 
-      <h1>php-ajax-dischi</h1>
       <?php foreach ($discs as $disc): ?>
         <div class="card">
           <?php echo $disc["poster"]; ?>
@@ -40,7 +39,7 @@ Stampiamo i dischi solo con l’utilizzo di PHP: al caricamento della pagina, ci
     <!-- /main -->
 
     <!-- footer -->
-    <footer></footer>
+    <?php include __DIR__ . "/php_partials/footer.php"; ?>
     <!-- /footer -->
 
   </body>
