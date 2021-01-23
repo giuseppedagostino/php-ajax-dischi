@@ -1,0 +1,33 @@
+footer {
+  padding: 0 50px;
+  height: $headerHeight;
+  line-height: $headerHeight;
+  color: $textColorHeader;
+  background-color: $backgroundColorHeader;
+  div {
+    float: right;
+    h1 {
+      margin-left: 10px;
+      font-size: 24px;
+    }
+  }
+  h1 {
+    display: inline-block;
+    opacity: 0.5;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  a {
+    margin-left: 20px;
+    color: $textColorHeader;
+    font-size: 32px;
+    opacity: 0.5;
+    &:hover {
+      opacity: 1;
+    }
+    &:first-of-type {
+      margin-left: 50px;
+    }
+  }
+}

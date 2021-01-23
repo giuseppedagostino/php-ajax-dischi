@@ -1,25 +1,51 @@
 main {
+  margin-top: 80px;
   padding: 50px;
   background-color: $backgroundColorMain;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   .card {
+    position: relative;
     margin-bottom: 25px;
     width: 260px;
-    height: 380px;
+    height: 390px;
+    color: $textColorCard;
+    text-align: center;
     border-radius: 15px;
     background-color: $backgroundColorCard;
     overflow: hidden;
     transition: 0.4s;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+      box-shadow: 0px 0px 30px 5px $textColorCard;
+    }
     img {
       display: block;
       width: 260px;
       height: 260px;
     }
-    &:hover {
-      cursor: pointer;
-      transform: scale(1.05);
+    div {
+      position: absolute;
+      bottom: 15px;
+      height: 100px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      h2 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      h3 {
+        font-size: 18px;
+        font-weight: 400;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 400;
+      }
     }
   }
 }

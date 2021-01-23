@@ -11,7 +11,7 @@
     // disco 2
     [
       "poster" => "<img src='img/rhcp.jfif'>",
-      "author" => "Red hot chili peppers",
+      "author" => "Red Hot Chili Peppers",
       "title" => "Tell me baby",
       "genre" => "Rock",
       "year" => "2006",
@@ -66,7 +66,7 @@
     ],
     // disco 9
     [
-      "poster" => "<img src='img/edit.jfif'>",
+      "poster" => "<img src='img/edit_2.jfif'>",
       "author" => "Edith Piaf",
       "title" => "La Vie en rose",
       "genre" => "Chanson",
@@ -111,6 +111,14 @@
       "title" => "What a wonderful world",
       "genre" => "Jazz",
       "year" => "1957",
+    ],
+    // disco 15
+    [
+      "poster" => "<img src='img/system.jfif'>",
+      "author" => "System Of A Down",
+      "title" => "Lonely day",
+      "genre" => "Metal",
+      "year" => "2005",
     ],
   ];
 ?>

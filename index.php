@@ -1,9 +1,5 @@
-<!-- Prima Milestone:
-Stampiamo i dischi solo con l’utilizzo di PHP: al caricamento della pagina, ci saranno tutti i dischi. -->
-
 <?php
   require __DIR__ . "/php_partials/db.php";
-  // include_once __DIR__ . "/php_partials/functions.php";
 ?>
 
 <!DOCTYPE html>
@@ -11,6 +7,8 @@ Stampiamo i dischi solo con l’utilizzo di PHP: al caricamento della pagina, ci
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.css" integrity="sha512-9iWaz7iMchMkQOKA8K4Qpz6bpQRbhedFJB+MSdmJ5Nf4qIN1+5wOVnzg5BQs/mYH3sKtzY+DOgxiwMz8ZtMCsw==" crossorigin="anonymous" />
     <!-- font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -30,8 +28,13 @@ Stampiamo i dischi solo con l’utilizzo di PHP: al caricamento della pagina, ci
 
       <?php foreach ($discs as $disc): ?>
         <div class="card">
+          <!-- il tag img è direttamente nel database -->
           <?php echo $disc["poster"]; ?>
-          <?php echo $disc["author"] . "<br>" . $disc["title"] . "<br>" . $disc["genre"] . "<br>" . $disc["year"]; ?>
+          <div>
+            <h2><?php echo $disc["author"]; ?></h2>
+            <h3><?php echo $disc["title"]; ?></h3>
+            <p><?php echo $disc["genre"] . " - " . $disc["year"]; ?></p>
+          </div>
         </div>
       <?php endforeach; ?>
 
