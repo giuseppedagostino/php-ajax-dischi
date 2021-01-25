@@ -19,8 +19,13 @@
 
   <!-- main -->
   <main>
-    <h1>Versione VUE - php-ajax-dischi</h1>
-    <!-- CODICE QUA -->
+    <div class="card" v-for="(disc) in discs">
+      <div>
+        <h2>{{ disc.author }}</h2>
+        <h3>{{ disc.title }}</h3>
+        <p>{{ disc.genre }} - {{ disc.year }}</p>
+      </div>
+    </div>
   </main>
   <!-- /main -->
 
