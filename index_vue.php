@@ -20,6 +20,7 @@
   <!-- main -->
   <main>
     <div class="card" v-for="(disc) in discs">
+      <span v-html="disc.poster"></span>
       <div>
         <h2>{{ disc.author }}</h2>
         <h3>{{ disc.title }}</h3>
